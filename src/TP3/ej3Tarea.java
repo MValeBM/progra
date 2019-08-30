@@ -52,13 +52,13 @@ public class ej3Tarea {
     }
 }
 /*// Se ordena la matriz usando el ordenamiento burbuja.
-        para (x = 0 ; x < n - 1 ; x ++ ) {
-            para (y = x + 1 ; y < n; y ++ ) {
+        for (x = 0 ; x < n - 1 ; x ++ ) {
+            for (y = x + 1 ; y < n; y ++ ) {
                 if ( Matriz [ 0 ] [x] . compareTo ( Matriz [ 0 ] [y]) > 0 ) {
                 // Se comparan los Strings de la primera fila unicamente (Nombres). Si el resultado es positivo, eso quiere decir que la posición actual debe intercambiarse con la siguiente.
 
                     // Se guardan los valores de la columna actual en un arreglo temporal, y se prosigue a intercambiar todos los valores de las columnas entre si.
-                    para ( int k = 0 ; k < 3 ; k ++ ) {
+                    for ( int k = 0 ; k < 3 ; k ++ ) {
                         temp [k]       =  Matriz [k] [x];
                         Matriz [k] [x] =  Matriz [k] [y];
                         Matriz [k] [y] = temp [k];

@@ -31,7 +31,7 @@ public class ej1Tarea {
             }
         }
         /*int[] numeros= new int[100];
-        Random randomizer = new Random(System.nanoTime());
+        //Random randomizer = new Random(System.nanoTime());
         for (int i=0; i<numeros.length; i++){
         numeros[i]=randomizer.nextInt(numeros.length);
         }
