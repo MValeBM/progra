@@ -3,11 +3,16 @@ package TP8;
 public class Coche implements IVehiculo {
     int velocidad_maxima=120;
     int velocidad_inicial;
+    String marca;
 
 
-    public Coche (int velocidad_inicial){
+
+    public Coche (int velocidad_inicial,String marca){
+
         this.velocidad_inicial=velocidad_inicial;
+        this.marca=marca;
     }
+
     public int acelerar(int aumentar){
         velocidad_inicial=velocidad_inicial+aumentar;
         if (velocidad_inicial>velocidad_maxima) System.out.println("La velocidad maxima ha sido superada");
@@ -23,9 +28,12 @@ public class Coche implements IVehiculo {
 
         return velocidad_inicial;
     }
+
     public void plazas(){
         System.out.println("El auto tiene 5 asientos solamente");
     }
+
+
 
 
 }
