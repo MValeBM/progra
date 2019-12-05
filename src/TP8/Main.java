@@ -19,7 +19,7 @@ public class Main {
         int dato;
         dato= Integer.parseInt(JOptionPane.showInputDialog("Digite 1 si quiere crear una moto,\n" +
                 " o 2 para crear un auto \n" +
-                "o cualquier tecla para salir del menu"));
+                "o cualquier otra tecla para salir del menu"));
 
         switch(dato) {
             case 0: Moto a = new Moto(0);
